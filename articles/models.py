@@ -16,6 +16,3 @@ class Article(models.Model):
 
     def snippet(self):
         return self.body[:50] + "..."
-
-
-
